@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2C3E50;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+header ol {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+header il {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Space between links */
+}
+
+header a {
+    color: #fff8f8; 
+    text-decoration: none; 
+}
+
+header a:hover {
+    text-decoration: underline solid rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(245, 241, 241);
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto; /* Center the logo */
+    display: block; /* Ensure it's centered */
+}
+
+.heading h1 {
+    text-align: center;
+}
+
+.paragraph p {
+    margin-left: 10%; /* Adjust for better readability */
+    margin-right: 10%; 
+    font-size: 20px; /* Slightly smaller for better balance */
+}
+
+footer {
+    background-color: #2C3E50; 
+    color: #ECF0F1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.heading2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.paragraph2 p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #BDC3C7;
+}
+
+.email {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.email b {
+    color: #F39C12;
+}
+
+.text4 p {
+    font-size: 12px;
+    color: #95A5A6; 
+}
+
+footer a {
+    color: #3498DB;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header img {
+        height: 100px; /* Smaller logo for mobile */
+        width: 100px;
+    }
+
+    .paragraph p {
+        font-size: 18px; /* Adjust font size for mobile */
+        margin-left: 5%; /* Adjust margins for smaller screens */
+        margin-right: 5%;
+    }
+
+    footer {
+        text-align: center; /* Center text in footer for mobile */
+        padding: 15px;
+    }
+
+    .heading2 {
+        font-size: 20px;
+    }
+
+    .paragraph2 p, .email, .text4 p {
+        font-size: 14px;
+    }
+}
+
+.heading1 {
+    margin-left: 20%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.contact-information ul {
+    margin-left: 10%; /* Adjust margin for better centering */
+    padding: 0; /* Remove default padding */
+}
+
+.facebook a img {
+    height: 40px; 
+    width: 65px; 
+    border-radius: 100%;
+    margin: 5px; 
+}.instagram a img {
+    height: 40px; 
+    width: 60px; 
+    border-radius: 100%;
+    margin: 5px; 
+}
+.linkedin a img {
+    height: 40px; 
+    width: 40px; 
+    border-radius: 100%;
+    margin: 15px; 
+    margin-top: -3px;
+    
+}
+
+/* Adjusted hover and link styles */
+#my-link {
+    -webkit-text-fill-color: black;
+    text-decoration: double;
+}
+#my-link:hover {
+    -webkit-text-fill-color: rgb(18, 105, 175);
+    text-decoration: underline solid black;
+}
+.heading1 h2 {
+
+text-align: center;
+margin-left: -6cm;
+    
+}

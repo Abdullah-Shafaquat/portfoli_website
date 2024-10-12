@@ -1,0 +1,198 @@
+
+body {
+    background-color: aliceblue;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2C3E50;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+header ol {
+    list-style-type: none;
+    padding: 0; /* Added to remove default padding */
+}
+
+header il {
+    display: inline;
+    margin: 0 15px;
+}
+
+header a {
+    color: #fff8f8;
+    text-decoration: none;
+    margin-left: 0; /* Reset margin for better mobile view */
+}
+
+header a:hover {
+    text-decoration: underline solid rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(245, 241, 241);
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto; /* Center the logo */
+    display: block; /* Ensure it's centered */
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.paragraph p {
+    margin: 0 10%; /* Responsive margins */
+    font-size: 25px;
+    padding: 1px;
+    text-align: left;
+}
+
+.picture img {
+    height: auto; /* Make height auto for responsiveness */
+    width: 100%; /* Use percentage width */
+    max-width: 400px; /* Limit max width for larger screens */
+    margin: 20px auto; /* Center image */
+    border-radius: 15%;
+    border: 2px solid black;
+    padding: 1%;
+    background-color: rgba(235, 235, 235, 0.336);
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.heading2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.paragraph2 p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #BDC3C7;
+}
+
+.email {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.email b {
+    color: #F39C12;
+}
+
+.text4 p {
+    font-size: 12px;
+    color: #95A5A6;
+}
+
+footer a {
+    color: #3498DB;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    header img {
+        height: 100px; /* Smaller logo for mobile */
+        width: 100px;
+    }
+
+    header a {
+        margin-left: 0; /* Reset margin for mobile */
+    }
+
+    .heading h1 {
+        font-size: 24px; /* Responsive heading size */
+    }
+
+    .paragraph p {
+        font-size: 16px; /* Adjust paragraph size */
+        margin: 0 5%; /* Decrease margins for mobile */
+    }
+
+    .picture img {
+        width: 90%; /* Responsive image width for mobile */
+        max-width: 100%; /* Ensure image doesn't exceed container */
+    }
+
+    footer {
+        text-align: center; /* Center text in footer for mobile */
+    }
+
+    .heading2 {
+        font-size: 20px; /* Smaller heading size in footer */
+    }
+
+    .paragraph2 p, .email, .text4 p {
+        font-size: 14px; /* Adjust font sizes */
+    }
+
+    .email {
+        margin: 10px 0; /* Adjust spacing */
+    }
+
+    .text4 p {
+        font-size: 12px; /* Responsive footer text size */
+    }
+}
+
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    align-items: flex-start; /* Align items at the start */
+    justify-content: space-between; /* Space between elements */
+}
+
+.paragraph {
+    flex: 1; /* Allow the paragraph to take available space */
+    margin-right: 20px; /* Space between the paragraph and image */
+}
+
+.picture {
+    flex: 0 0 400px; /* Set a fixed width for the image container */
+    max-width: 100%; /* Ensure it doesn't exceed container width */
+}
+
+.picture img {
+    width: auto; /* Make the image responsive */
+    height: 7cm; /* Maintain aspect ratio */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column; /* Stack elements vertically on mobile */
+        align-items: center; /* Center items */
+    }
+
+    .paragraph {
+        margin-right: 0; /* Remove margin on mobile */
+        margin-bottom: 20px; /* Space below the paragraph */
+    }
+
+    .picture {
+        max-width: 90%; /* Allow the image to take more space on mobile */
+    }
+}
+.paragraph p {
+font-size: 25px;
+
+}
